@@ -41,3 +41,24 @@ function mudarTema(tema) {
     document.body.style.color = "#333";
   }
 }
+
+const quiz = document.getElementById("quiz-container");
+
+perguntas.forEach((p, i) => {
+  const div = document.createElement("div");
+  div.innerHTML = <p>${p.pergunta}</p> + p.opcoes.map((op, j) => 
+    <label><input type="radio" name="q${i}" value="${j}">${op}</label>
+  ).join("<br>");
+  quiz.appendChild(div);
+});
+
+function verificarRespostas() {
+  let acertos = 0;
+  perguntas.forEach((p, i) => {
+    const selecionada = document.querySelector(input[name="q${i}"]:checked);
+    if (selecionada && parseInt(selecionada.value) === p.correta) {
+      acertos++;
+    }
+  });
+  document.getElementById("resultado").innerText = Você acertou ${acertos} de ${perguntas.length}.;
+}
