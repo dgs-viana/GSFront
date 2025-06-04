@@ -1,0 +1,89 @@
+:root {
+  --azul: #40aab3;
+  --azul-escuro: #1b3a4e;
+  --cinza-claro: #f4f7fa;
+  --branco: #ffffff;
+  --fonte: 'Archivo', sans-serif;
+}
+
+body {
+  font-family: var(--fonte);
+  background-color: var(--cinza-claro);
+  color: var(--azul-escuro);
+}
+
+header {
+  background-color: var(--azul);
+  padding: 1.5rem;
+  color: var(--branco);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.menu a {
+  color: var(--branco);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a.active {
+  background-color: var(--azul-escuro);
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.secao {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secao .conteudo {
+  flex: 1 1 300px;
+  padding-right: 1rem;
+}
+
+.secao img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  flex: 1 1 300px;
+}
+
+footer {
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.archivofont {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
