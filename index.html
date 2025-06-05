@@ -1,113 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WaterAlert - Solução Inteligente</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/img/icons/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="style.css">
 
-  <link rel="stylesheet" href="/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
-  <style>
-  
-  @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-  </style>
-
-  <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
-
-
+    <title>Water Alert</title>
 </head>
 <body>
+    <header>
+        
+      <nav>
+           
+ 
+        <a href="index.html"><img src="img/favicon-32x32.png" alt="Logo"></a>
+            
+            <ul>
+                <li><a class="link-ancora" href="#chamada-acao">Home</a></li>
+                <li><a class="link-ancora" href="#txts-icones">Problema</a></li>
+                <li><a class="link-ancora" href="#captacao">Publico</a></li>
+                <li><a class="link-ancora" href="#secao3">Tecnologias</a></li>
+                <li><a class="link-ancora" href="quiz.html">Quiz</a></li>
+                
 
-  <header>
-  
-  <nav>
-    <h1>WaterAlert</h1>
-      <ul class="menu">
-        <li><a href="#problema">Problema</a></li>
-        <li><a href="#tecnologias">Tecnologias</a></li>
-        <li><a href="#objetivos">Objetivos</a></li>
-        <li><a href="#publico">Público</a></li>
-        <li><a href="#beneficios">Benefícios</a></li>
-        <li><a href="#cotidiano">Uso Diário</a></li>
-      </ul>
-    </nav>
-   
-  </header>
+                
+            </ul>
+        </nav>
+    <main>
 
-  <main>
-    <section id="problema" class="secao">
-      <div class="conteudo">
-        <h2>O Problema</h2>
-        <p>Enchentes causam prejuízos e riscos por falta de monitoramento em tempo real nas cidades.</p>
-        <p>Soluções reativas agravam o problema e aumentam os custos para a população e o governo.</p>
-      </div>
-      <img src="pexels-sveta-k-75705601-8568719.jpg" alt="Enchente em área urbana">
-    </section>
+        <div class="carousel">
+            <img id="carousel-img" src="img/segunda imagem.jpg" alt="carrossel">
+        </div>
 
-    <section id="tecnologias" class="secao">
-      <div class="conteudo">
-        <h2>Tecnologias Utilizadas</h2>
-        <p>Usamos sensores IoT, mapas dinâmicos e alertas via SMS e aplicativo para prevenir enchentes.</p>
-        <p>Todos os dados são protegidos por criptografia e atualizados em tempo real.</p>
-      </div>
-      <img src="https://storage.googleapis.com/medium-feed.appspot.com/images%2F9353691196%2F1fc988aa45479-1718910328_780_Tipos-de-sensores-usados-%25E2%2580%258B%25E2%2580%258Bna-IoT.jpg" alt="Sensores inteligentes conectados">
-    </section>
-
-    <section id="objetivos" class="secao">
-      <div class="conteudo">
-        <h2>Objetivos</h2>
-        <p>Reduzir riscos de alagamentos e melhorar o planejamento das ações de emergência urbana.</p>
-        <p>Empoderar governos e cidadãos com dados acessíveis e atualizados.</p>
-      </div>
-      <img src="especialista-em-dados.png" alt="Equipe analisando mapa de enchentes">
-    </section>
-
-    <section id="publico" class="secao">
-      <div class="conteudo">
-        <h2>Público-Alvo</h2>
-        <p>Cidadãos em áreas de risco, autoridades municipais e profissionais da defesa civil.</p>
-        <p>Qualquer pessoa pode acompanhar alertas de acordo com a localização desejada.</p>
-      </div>
-      <img src="09-09-2011-19-48-16-baixaa.jpg" alt="Família acompanhando alerta de celular">
-    </section>
-
-    <section id="beneficios" class="secao">
-      <div class="conteudo">
-        <h2>Benefícios</h2>
-        <p>Menos prejuízos materiais e maior agilidade na resposta a crises.</p>
-        <p>Mais segurança, planejamento urbano e prevenção inteligente.</p>
-      </div>
-      <img src="https://www.zapimoveis.com.br/blog/wp-content/uploads/2023/12/cidade-de-sao-paulo.jpg" alt="Cidade segura com céu limpo">
-    </section>
-
-    <section id="cotidiano" class="secao">
-      <div class="conteudo">
-        <h2>Uso no Dia a Dia</h2>
-        <p>Aplicativo com mapa de risco e alertas personalizados por localização.</p>
-        <p>Fácil acesso a dados críticos para todos os usuários.</p>
-      </div>
-      <img src="Gemini_Generated_Image_th5f5lth5f5lth5f_1.png" alt="Aplicativo mostrando nível da água">
-    </section>
-
-    <div id="tema">
-  <button onclick="mudarTema('claro')">☀️</button>
-  <button onclick="mudarTema('escuro')">🌙</button>
-  <button onclick="mudarTema('colorido')">🎨</button>
-     </div>
+        
 
 
-  </main>
+        <section class="container">
+            
+            <div class="card">
+                <h4>O Problema:  
+ Enchentes causam prejuízos e riscos por falta de monitoramento em tempo real nas cidades.
 
-  <footer>
+
+</h4>
+            </div>
+            <div class="card">
+                <h4>Tecnologias Utilizadas:
+Usamos sensores IoT, mapas dinâmicos e alertas via SMS e aplicativo para prevenir enchentes.
+
+
+</h4>
+            </div>
+            <div class="card">
+                <h4>Público-Alvo:
+Cidadãos em áreas de risco, autoridades municipais e profissionais da defesa civil.
+
+Qualquer pessoa pode acompanhar alertas de acordo com a localização desejada.
+</h4>
+            </div>
+            <div class="card">
+                <h4>Uso no Dia a Dia:
+Aplicativo com mapa de risco e alertas personalizados por localização.
+
+Fácil acesso a dados críticos para todos os usuários.</h4>
+            </div>
+        </section>
+        
+        
+
+
+        
+
+
+        <section class="secao3" id="secao3">
+            <div class="paragrafo" id="paragrafo">
+                <img src="img/foto aplicativo.png" alt="tela de notebook">
+                <p>Utilizamos um aplicativo para a prevenção e monitoramento de enchentes </p>
+            </div>
+            <div class="paragrafo">
+                <img src="img/enchente nova orleans.jpeg" alt="foto de enchente">
+                <p>Com base no relatorio do nosso dispositivo indentificamos a possibilidade de ocorrencias de enchentes</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="colunas-footer">
+            <a href="index.html"><img src="img/favicon-32x32.png" alt="logo da empresa"></a>
+        </div>
+       
     <p>&copy; 2025 WaterAlert | Todos os direitos reservados</p>
-  </footer>
-  <script src="app.js"></script>
+      
+    
 
-  
+    </footer>
+    
 </body>
-</html>
-
-
-
-</body>
+<script src="src/js/app.js"></script>
 </html>
