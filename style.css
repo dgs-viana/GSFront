@@ -87,76 +87,8 @@ h1{
   display: block;
 }
 
-.txts-icones{
-    width: 100%;
-    font-family: Poppins;
-    font-size: 1rem;
-    background-color: var(--cor-div-icones);
-    color: var(--cor-texto-especial);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 14rem;
-}
-
-.icone{
-    flex-direction: column; /* empilha os textos verticalmente */
-    align-items: center; /* centraliza horizontalmente */
-    padding: 16px;
-    border-radius: 8px;
-    width: 30%; /* divide em 3 partes */
-    text-align: center;
-}
-
 .icone:hover{
     color: var(--cor-hover);
-}
-
-.icone h4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700; /* ou 500 */
-    text-transform: uppercase;
-    color: var(--cor-texto);
-    font-size: 1.3rem;
-    letter-spacing: 0.5px;
-}
-
-.icone h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300; /* ou 500 */
-    color: var(--cor-texto);
-    font-size: 1.3rem;
-    letter-spacing: 0.5px;
-}
-
-.icone img{
-    width: 70px; /* ajuste o tamanho da imagem */
-    height: auto;
-    margin-bottom: 10px; /* espaço entre imagem e texto */
-}
-
-.colaboradores{
-    height: 4rem;
-    font-size: 2rem;
-    font-family: Poppins,sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor-fundo1);
-    color: var(--cor-texto);
-}
-
-.parceiros{
-    background-image: url('../img/logos/parceiros.png');
-    background-repeat: repeat-x;
-    background-size: contain;
-    height: 10rem;
-    animation: scroll 30s linear infinite;
-}
-
-.rodape-parceiros{
-    height: 4rem;
-    background-color: var(--cor-fundo1);
 }
 
 .container{
@@ -243,15 +175,6 @@ h1:hover{
 
 .secao3 img:hover{
     scale: 0.9;
-}
-
-.secao4{
-    background-color: black;
-}
-
-.secao4 img{
-    width: 100%;
-    opacity: 0.4;
 }
 
 .captacao{
